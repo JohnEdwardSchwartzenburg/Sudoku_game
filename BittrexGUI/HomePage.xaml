@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="BittrexGUI.HomePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BittrexGUI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="-744,-242,-800,10">
+        <StackPanel Name ="HoldingsStack" BorderBrush="Black" BorderThickness="5" HorizontalAlignment="Left" Height="862" VerticalAlignment="Top" Width="1904">
+            <TextBlock Name ="HoldingBox2" TextWrapping="Wrap" Margin="0,122,870,389" Height="373"/>
+        </StackPanel>
+
+    </Grid>
+</Page>
